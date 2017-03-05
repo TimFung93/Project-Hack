@@ -2,9 +2,13 @@ import React from 'react';
 
 
 export default class TodoSelect extends React.Component {
+
 	render() {
+		let style = {
+			color: 'black'
+		}
 		return (
-			 <select onChange={e => this.props.onSelectChange(e)}
+			 <select style={style} onChange={e => this.props.onSelectChange(e)}
 			 		value={this.props.selectValue}
 			 >
 				        <option value="all">all</option>

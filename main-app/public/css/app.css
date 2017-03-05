@@ -1,21 +1,43 @@
 body{
 
-	background: url('../img/ipad.jpg')no-repeat; 
+	background: url('../img/ipad_final.png')no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: white;
 }
 
 .title {
-	margin-top: 180px;
-	margin-right: 162px;
+	margin-top: 90px;
+	margin-right: 412px;
+  font-size: 26px;
+
 }
 
-.videomargin {
-  margin-left: 200px;
-  margin-top: 200px;
+.todomargin {
+  margin-top:186px;
 }
+
+.maintitle {
+ margin-left: 50px;
+
+}
+
+.cloud {
+  height: 20px;
+  margin-top: -20px;
+}
+
+.Main {
+  margin-top: 65px;
+}
+
+label {
+  color: black;
+}
+
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -29,9 +51,9 @@ body{
 }
 
 .contain {
-  max-width: 360px;
+/*  max-width: 360px;
   max-height: 480px;
-  margin-left: 128px;
+  margin-left: 128px;*/
   margin-top: 196px;
 }
 
@@ -135,11 +157,13 @@ body{
 .month-title {
   text-align: center;
   flex: 4;
+  font-size: 18px;
 }
 
 .month-year {
   font-size: 0.8em;
   color: #aaa;
+  font-size: 18px;
 }
 
 .month-arrow-left {

@@ -9,8 +9,6 @@ export default class Home extends React.Component {
     	
         return (
             <div className='contain'>
-
-                <h1>Title</h1>
                 <Calendar
                     accentColor={'steelblue'}
                     orientation={'flex-row'}
@@ -18,8 +16,7 @@ export default class Home extends React.Component {
                     onDatePicked={(d) => {
                       console.log(d)
                     }}/>
-                <p> this is the caregiver app</p>
-                
+        
 
             </div>
         )

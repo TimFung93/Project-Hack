@@ -21,7 +21,8 @@ export default class Calendar extends React.Component {
     this.state = {
       current: config.today(),
       selected: config.today(),
-      ldom: 30
+      ldom: 30,
+      events:config.today()
     };
   }
 
@@ -53,7 +54,8 @@ export default class Calendar extends React.Component {
     d.setDate(day);
     this.props.onDatePicked(d);
     this.setState({
-      selected: d
+      selected: d,
+      events: "You have no events on this day"
     });
   }
 
@@ -68,6 +70,8 @@ export default class Calendar extends React.Component {
         borderColor: this.props.accentColor,
       };
     }
+
+
 
     var selected = "";
     var selectedStyle = {};
@@ -170,6 +174,8 @@ export default class Calendar extends React.Component {
     var month = config.months[this.state.current.getMonth()];
     var year = this.state.current.getFullYear();
     var date = this.state.current.getDate();
+    let event = this.state.current.events;
+    console.log(event)
 
     var upperDate = null;
     if( this.props.showHeader ) {
@@ -180,6 +186,9 @@ export default class Calendar extends React.Component {
         <p className="header-day">{tDate}</p>
       </div>);
     }
+
+       console.log(this.state)
+   
     return (<div className={this.props.orientation}>
       {upperDate}
       <div className="padding">

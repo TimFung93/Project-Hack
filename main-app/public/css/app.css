@@ -1,11 +1,10 @@
 body{
-
-	background: url('../img/ipad_final.png')no-repeat; 
+	background: url('../img/ipad_final.jpg')no-repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
+  color: black;
 }
 
 .title {
@@ -36,8 +35,6 @@ body{
 label {
   color: black;
 }
-
-
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');

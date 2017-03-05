@@ -18,7 +18,7 @@ export default class Home extends React.Component {
                     onDatePicked={(d) => {
                       console.log(d)
                     }}/>
-
+                <p> this is the caregiver app</p>
                 
 
             </div>

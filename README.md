@@ -1,13 +1,12 @@
 DementiaHack 2017 
 
-Project_Fran
+Project Name: Fran
 
 Project Brief: Fran is a personalized platform that helps individuals with Dementia navigate through tasks so they may gain more independence at home.
 
 Persona: Early-Stage Dementia individual who sometimes forget daily tasks.
 
-
-Team: Hayley Thomas-UX/UI Designer, Project Leader
+Project Leader: Hayley Thomas-UX/UI Designer  
 Logan Lin-UX/UI Designer, Front-End
 Timothy Fung-Full Stack Developer
 

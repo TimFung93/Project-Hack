@@ -7,7 +7,9 @@ Project Brief: Fran is a personalized platform that helps individuals with Demen
 Persona: Early-Stage Dementia individual who sometimes forget daily tasks.
 
 Project Leader: Hayley Thomas-UX/UI Designer  
+
 Logan Lin-UX/UI Designer, Front-End
+
 Timothy Fung-Full Stack Developer
 
 
